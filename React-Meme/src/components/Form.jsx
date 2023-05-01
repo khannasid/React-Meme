@@ -37,7 +37,7 @@ React.useEffect(()=>{
 
     const downloadImage = async ()=>{
         const imageBlob = await fetch(meme.image,{
-            mode: 'opaque',
+            mode: 'no-cors',
             headers: {
                 'Access-Control-Allow-Origin': '*',
                 'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'
