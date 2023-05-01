@@ -36,7 +36,14 @@ React.useEffect(()=>{
 }, [newMeme]);
 
     const downloadImage = async ()=>{
-        const imageBlob = await fetch(meme.image)
+        const imageBlob = await fetch(meme.image,{
+            method : "GET",
+            mode: 'cors',
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS'
+            }
+        })
             .then((response) => response.arrayBuffer())
             .then((buffer) => new Blob([buffer],{type: "image/jpeg"}));
 
