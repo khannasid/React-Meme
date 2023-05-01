@@ -1,0 +1,16 @@
+
+.footer{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background: linear-gradient(to left,rgb(104, 0, 104,0.9), rgb(104, 0, 104,1));
+}
+
+.content{
+    padding: 10px;
+}
+.content > *{
+    font-size: small;
+    font-weight: 100;
+}

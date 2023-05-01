@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Nav{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: aliceblue;
+    background: linear-gradient(to left,rgb(104, 0, 104,0.9), rgb(104, 0, 104,1));
+}
+
+.logo-container{
+    margin: 12px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.logo-container > img{
+    width: 100%;
+    max-width: 30px;
+    border-radius: 5px 5px;
+}
+
+.logo-container > h2{
+    font-weight:bolder;
+}
+.course{
+    padding-right: 10px;
+    margin: 5px;
+}
+.course > h3{
+    font-size: small;
+    font-weight: 100;
+}
