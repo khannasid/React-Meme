@@ -4,7 +4,7 @@ export default function Nav(){
     return(
         <nav className="Nav">
             <div className="logo-container">
-                <img src="../../public/images/face.png" alt="" />
+                <img src="images/face.png" alt="" />
                 <h2>Meme Downloader</h2>
             </div>
             <div className="course">
